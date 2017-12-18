@@ -18,21 +18,27 @@ mat-card {
     flex-wrap: wrap;
     flex-flow: row;
     justify-content: space-between;
-    height: auto;
+    height: 100%;
 }
 
 
 .main-content {
 
         margin-top: 48px;
+        height: auto;
+        min-height: 100vh;
     }
 
 .bit-banner {
-    width: 15vw;
-    max-width: 15vw;
-    height: 100%;
+    position: fixed;
+    right: 0;
+    width: 15%;
 }
-.bit-banner img, .bit-banner a {
+.bit-banner img {
+    width: 100%;
+    height: 90vh;
+}
+.bit-banner a {
     display: block;
     width: 100%;
     height: 100%;
@@ -55,4 +61,5 @@ mat-expansion-panel-header {
 mat-expansion-panel, mat-expansion-panel mat-card {
     background: rgba(255,69,0,.8);
     color: white;
+    width: 83vw;
 }
