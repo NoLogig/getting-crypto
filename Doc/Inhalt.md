@@ -48,6 +48,7 @@ Unter Exchange können Sie dann so Coins zum aktuellen Kurs traden.
 Ähnlich läuft es auch auf Binance ab. Sie loggen sich auf Binance mit Ihrem Account ein. Gehen dann auf BTC-IOTA exchange. Unter dem Chart in der Mitte der Seite sehen Sie ein Interface. Dort klickt man von Limit auf Market. Nachdem Sie Market ausgewählt haben, klicken Sie auf 100% (damit wandeln Sie Ihre Bitcoins zu 100% in Iota um).
 Wenn Sie mit Ihren Einstellungen zufrieden sind, klicken Sie auf Buy IOTA. Herzlichen Glückwunsch Sie haben soeben gelernt wie man an dem Kryptomarkt Teil nimmt und in den wohl vielversprechendsten Coin investiert! 
 
+Video Einbinden Youtube 
 
 # Iota Info Seite in Bearbeitung
 ## Iota Infos bezüglich Projekte, mögliche Anwendungen in der Zukunft
