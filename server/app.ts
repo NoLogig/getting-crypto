@@ -69,7 +69,7 @@ export class Server {
   // Configure Routes and API endpoints
   private routes() {
 
-    this.app.use('/*', homeRouter);
+    this.app.use('/home', homeRouter);
 
     // // catch 404 and forward to error handler
     // this.app.use((req, res, next) => {
