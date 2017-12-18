@@ -11,4 +11,18 @@ export class AppComponent {
     icon: 'home',
     path: ''
   }];
+
+  step = 0;
+  
+    setStep(index: number) {
+      this.step = index;
+    }
+  
+    nextStep() {
+      this.step++;
+    }
+  
+    prevStep() {
+      this.step--;
+    }
 }
