@@ -3,10 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', children: [], component: AppComponent },
+  // { path: '', redirectTo: 'home', pathMatch: 'full' },
+  // { path: 'home', children: [], component: AppComponent },
 
-  { path: '**', component: AppComponent   /* to Do: Fancy PageNotFound 8) */ }
+  // { path: '**', component: AppComponent   /* to Do: Fancy PageNotFound 8) */ }
 ];
 
 @NgModule({
