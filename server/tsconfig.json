@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/server",
+    "mapRoot": "../dist/server",
+    "module": "commonjs",
+    "target": "es6"
+  }
+
+
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Getting Crypto",
+  "description": "",
+  "keywords": [
+    "MEAN",
+    "MongoDB",
+    "Express",
+    "Angular 4",
+    "NodeJS",
+    "Angular Material",
+    "Heroku",
+    "TypeScript",
+    "Crypto"
+  ],
+  "repository": "https://github.com/NoLogig/getting-crypto",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "image": "heroku/nodejs",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+  ]
+}
