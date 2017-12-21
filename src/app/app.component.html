@@ -1,5 +1,5 @@
 <mat-toolbar class="app-header">
-  <span>Getting Crypto</span>
+  <span title="Getting Crypto">GC </span>
   <nav mat-tab-nav-bar>
     <a mat-tab-link *ngFor="let link of navLinks" [routerLink]="link.path" routerLinkActive #rla="routerLinkActive" [active]="rla.isActive">
       <mat-icon>{{link.icon}}</mat-icon>
@@ -8,19 +8,14 @@
 
 </mat-toolbar>
 
-
 <mat-card class="main-content">
 
   <div class="flex-spacer">
 
-    <div>
+    <div class="sizer">
 
-        <img style="width:83vw"width="512" alt="IOTA" src="https://upload.wikimedia.org/wikipedia/commons/0/05/IOTA.jpg" />
-      <a title="By Tiagodimas2 (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons"
-        href="https://commons.wikimedia.org/wiki/File%3AIOTA.jpg">
-      </a>
-
-      <mat-accordion class="example-headers-align">
+  
+      <mat-accordion>
         <mat-expansion-panel [expanded]="step === 0" (opened)="setStep(0)" hideToggle="true">
 
           <mat-expansion-panel-header>
@@ -72,7 +67,7 @@
             Zugang zur Handelsbörse der Kryptocoins. Natürlich können Sie sich auf den Exchange Plattformen verifizieren
             und via Bankeinzug Euro bzw Dollar überweisen, doch dieser Schritt kann bis zu 21 Tage dauert, weil das Postident
             verfahren angewand wird. Deshalb Coins kaufen auf Bitcoin.de / Coinbase.com um den schnellen Einstieg zu schaffen.
-            </p>
+          </p>
           <h3>*Zusatz Daytrading</h3>
           <p>
             Für alle die an Daytrades mit Kryptowährung interessiert sind, bietet sich die Option an bei beiden Exchange Plattformen
